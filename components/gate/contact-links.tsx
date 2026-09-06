@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'motion/react'
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 type Contact = {
@@ -17,12 +17,6 @@ const CONTACTS: Contact[] = [
     label: 'E-mail',
     value: 'info@bit4company.com',
     href: 'mailto:info@bit4company.com',
-  },
-  {
-    icon: Phone,
-    label: 'Telefon',
-    value: '+373 760 28 777',
-    href: 'tel:+37376028777',
   },
   {
     icon: MapPin,
